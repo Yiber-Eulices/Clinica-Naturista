@@ -46,5 +46,6 @@ Contributor(s):
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/clinicanaturista</property>
     <property name="hibernate.connection.username">root</property>
     <mapping resource="Mapeo/Cita.xml"/>
+    <mapping resource="Mapeo/Especialidad.xml"/>
   </session-factory>
 </hibernate-configuration>
